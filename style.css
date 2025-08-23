@@ -1,0 +1,167 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+ h1 {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+
+ }
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+.out {
+    display: flex;              
+    justify-content: space-between;  
+    align-items: center;        
+    padding: 10px 20px;
+    height: 100px;
+    background: black;
+}
+
+.menu_list {
+    display: flex;
+    gap: 20px;                
+}
+
+div a{
+  color: white;
+}
+
+i {
+  color: white;
+}
+.icons-bar {
+    display: flex;
+    gap: 15px;                  
+    font-size: 20px;
+}
+
+
+.curse{
+      font-size: 4rem;
+      border-right: 3px solid black;  
+      white-space: nowrap;           
+      overflow: hidden;              
+      width: 0;                      
+      animation: typing 4s steps(18, end) forwards, blink 0.7s step-end infinite;
+    }
+
+ @keyframes typing {
+      from { width: 0 }
+      to { width: 18ch }   
+    }
+
+    
+@keyframes blink {
+      50% { border-color: transparent }
+    }
+
+.upp {
+    width: 100%;             
+    height: 90vh;            
+    background: url("img/glass15.jpg") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.mid {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;          
+  padding: 3rem;
+  flex-wrap: wrap;    
+}
+
+.card {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.down-base {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;          
+  padding: 3rem;
+  flex-wrap: wrap; 
+}
+
+
+footer {
+    background-color: #f9f9f9;  
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    border-top: 1px solid #ddd;
+}
+
+footer .side {
+    flex: 1;              
+    min-width: 200px;     
+    margin: 10px 20px;
+}
+
+footer h6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+footer ul li:hover {
+    color: #000;
+}
+
+
+.features {
+  width: 100%;             
+  height:350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fet-icon{
+  margin: 1.5rem;
+  border-radius: 10%;
+  background-color: #fdf6f0;
+  height: 250px;
+  width: 250px;
+  padding: 1.5rem;
+}
+
+.fet-icon i {
+  color: #000;
+  font-size: 3.5rem;
+}
+
+.fet-icon h5{
+  font-weight: 600;
+  padding: 1.5px;
+}
+
+
