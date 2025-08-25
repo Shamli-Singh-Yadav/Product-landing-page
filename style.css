@@ -164,4 +164,93 @@ footer ul li:hover {
   padding: 1.5px;
 }
 
+.review {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+  margin-top: 2rem;
+  
+}
+
+.say {
+  height: auto;
+  width: 320px;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.say:hover {
+  transform: translateY(-8px);
+}
+
+.say img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.say h5 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.say p {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.4;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.menu_list a {
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.menu_list a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0%;
+  height: 2px;
+  background: gold;
+  transition: width 0.3s ease;
+}
+
+.menu_list a:hover {
+  color: gold;
+}
+
+.menu_list a:hover::after {
+  width: 100%;
+}
+
+
+.fet-icon {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fet-icon:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.say:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
 
